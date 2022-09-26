@@ -88,4 +88,32 @@
         .nav-item{
           background-color: black;
         }}
+
+        body{
+          background-color: rgb(16, 16, 16);
+          color: white;
+        }
+
+        #mode{
+          height: 7vh;
+          background-image: linear-gradient(to right,red,black);
+        }
+        #modbtn{
+          height: 7vh;
+        }
+
+        *::-webkit-scrollbar {
+          width: 5px;
+        }
+        
+        *::-webkit-scrollbar-track {
+          /* background: black; */
+          background: rgb(16, 16, 16);
+        }
+        
+        *::-webkit-scrollbar-thumb {
+          background-color: rgb(255, 0, 0);
+          border-radius: 5px;
+          /* border: 3px solid orange; */
+        }
    
