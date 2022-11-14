@@ -1,0 +1,52 @@
+{
+
+"data1": {
+"cat":"c",
+    "title": "S. Africa Tour of India",
+    "img1": "pics/inct.png",
+    "img2": "pics/sanct.png",
+    "t1": "Inida",
+    "t2": "S. Africa",
+    "status":"Inida won by 2 wickets"
+},
+
+"data2": {
+    "cat":"c",
+    "title": "England Tour of Pakistan",
+    "img1": "pics/enct.png",
+    "img2": "pics/pnct.png",
+    "t1": "England",
+    "t2": "Pakistan",
+    "status":"Pak won by 6 runs"
+},
+
+"data3": {
+    "cat":"f",
+    "title": "UEFA Nations League",
+    "img1": "pics/port.png",
+    "img2": "pics/spain.png",
+    "t1": "Portugal",
+    "t2": "Spain",
+    "s1":0,
+    "s2":1,
+    "score": "Morata 88' "
+},
+
+
+"data4": {
+    "cat":"f",
+    "title": "UEFA Nations League",
+    "img1": "pics/arg.png",
+    "img2": "pics/jam.png",
+    "t1": "Argentina",
+    "t2": "Jamaica",
+    "s1":3,
+    "s2":0,
+    "score":"L. Messi 86', 89'"
+}
+
+
+
+
+
+}

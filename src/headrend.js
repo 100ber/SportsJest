@@ -1,7 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component ,useEffect,useState} from 'react'
 import Header from './header';
 import Header2 from './header2';
-import { F,F2 } from './funccomp';
+import { F,F2} from './funccomp';
+import Test from './test';
 
 export default class HeadRend extends Component {
 constructor(){
@@ -20,6 +21,7 @@ Loadi =()=>{
     }
 }
 
+
   render() {
     if(this.state.a ==1){
     return (<div>
@@ -27,7 +29,7 @@ Loadi =()=>{
 <button id="modbtn" onClick={this.Loadi}><input type="checkbox" id="toggle-two"></input></button>
     </div>
     <Header></Header>
-    <F></F>
+    <Test></Test>
     </div>
     )}
     return(
