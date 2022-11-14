@@ -1,75 +1,639 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link href="http://fonts.cdnfonts.com/css/facon" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <link rel="stylesheet" href="header.css">
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
     <title>React App</title>
+
+
+
+    <!-- for dark Mode -->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+
+<!-- for toggle button -->
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
   </head>
   <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <div id="root">
+
+
+
+
+
+      
+    </div>
   
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    
+    <style>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+      .heads{
+        height: 15vh;
+        font-size: larger;
+      }
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+      .hh{
+        height:78vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 0px 2vh;
+        border-radius: 2vh;
+      }
+
+      /* .fi{
+        position:absolute;
+      } */
+
+      .row{
+        --bs-gutter-x : 0;
+      }
+
+      .sel{
+        width:35vh;
+        display: inline-block;
+        height: 10vh;
+        font-size: 5vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+.slidecustom{
+  margin: 2vh 10vh;
+}
+
+.br{
+  border-radius: 10vh;
+}
+@import url('http://fonts.cdnfonts.com/css/facon');
+#logo{
+  font-family: facon;
+  font-size: 7vh;
+  color: white;
+  padding-left: 3%;
+  /* font-family:Georgia, 'Times New Roman', Times, serif; */
+  /* font-style: italic; */
+}
+
+.nav-item:hover>.dropdown-menu {
+  display: block;
+}
+
+.nav-item {
+padding: 0vh 4vh;
+}
+
+
+
+.nav-item >a{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lin{
+  color: white;
+  text-decoration: none;
+}
+.lin:hover{
+  color:red;
+}
+
+#logo2{
+  font-family: facon;
+  font-size: 7vh;
+
+}
+
+
+@keyframes first {
+    
+    
+    0%{background-image: linear-gradient(to right,red,rgb(27, 27, 25)); margin-left: 80%;color:white}
+    /* 25%{background-image:linear-gradient(to right,yellow,red); margin-left: 25%;} */
+    90%{margin-left:0% ;opacity: 1; background-image: linear-gradient(to right,red,black);color: white;}
+    100%{margin-left: 0%; }
+   
+}
+
+
+@keyframes second2 {
+    
+    
+    0%{background-image: linear-gradient(to right,red,purple,black); background-size: 0%;color:white}
+    /* 25%{background-image:linear-gradient(to right,yellow,red); margin-left: 25%;} */
+    90%{background-size: 100%;opacity: 1; background-image: linear-gradient(to right,red,purple,black);color: white;}
+    100%{margin-left: 0%; }
+   
+}
+
+.animation{
+    /* height: 15vh;
+    width: 100%; */
+    animation-name: first;
+    animation-duration: 3s ;
+    transition-timing-function:linear;
+    background-image: linear-gradient(to right,red,black);
+    /* margin-left: 5%;  */
+    
+}
+
+.animation2{
+    /* height: 15vh;
+    width: 100%; */
+    animation-name: second2;
+    animation-duration: 3s ;
+    transition-timing-function:linear;
+    background-image: linear-gradient(to right,red,purple,black);
+    /* margin-left: 5%;  */
+    
+}
+
+body{
+  background-color: rgb(16, 16, 16);
+  color: white;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a{
+  cursor: pointer;
+}
+
+
+#scorebtn{
+  display: none;
+}
+
+  
+
+.fi{
+  width:35vh;
+}
+
+#mode{
+  height: 7vh;
+  background-image: linear-gradient(to right,red,black);
+}
+#modbtn{
+  height: 7vh;
+}
+
+.cardh{
+  background-color: rgb(221, 221, 221);
+  border-radius: 4vh;
+  padding: 1vh 0vh;
+  margin-bottom: 2vh;
+  color: black;
+}
+
+.cardhead{
+  font-size: small;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-bottom: 2vh;
+}
+.cardhead2{
+  font-size: 3vh;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  padding-bottom: 2vh;
+}
+
+
+.results{
+  font-size: 70%;
+}
+.results2{
+  font-size: 88%;
+}
+.rs{
+  width: 23vh;
+}
+
+#disch{
+  height:19vh;
+  background-color: grey;
+  /* width: 100%; */
+  border-radius: 2vh;
+  margin-top: 2vh;
+}
+
+#dis{
+  background-image: linear-gradient(to right,rgb(59, 82, 196),rgb(170, 0, 255));
+  border-radius: 2vh;
+  height: 7vh;
+}
+
+
+#fb{
+  background-color: rgb(72, 72, 180);
+  border-radius: 1vh;
+  color: white;
+  height: 7vh;
+  padding: 0vh 1vh;
+  margin-top: 5vh;
+
+}
+
+
+#rd{
+  background-color: black;
+  color: white;
+  height: 7vh;
+  border-radius: 1vh;
+  margin-top: 3vh;
+}
+
+#rd:hover{
+  color:rgb(138, 138, 249);
+}
+
+#bars{
+  display: none;
+}
+
+
+#bigl{
+  font-family: facon;
+  text-align: center;
+}
+
+
+/* #logo{
+  text-align:right;
+} */
+
+.fl{
+  display: none;
+}
+
+.card{
+  color: black;
+}
+
+.og{
+  background-color: gray;
+  border-radius: 2vh;
+  margin: 0vh 1vh;
+  width: 43vh;
+  height: auto;
+  justify-content: center;
+}
+
+@media (max-width:993px){
+.nav-item{
+  background-color: black;
+}
+.fl{
+padding: 0vh 3vh;
+}
+
+#bigl{
+  display:none;
+}
+.fl{
+  display:flex;
+}
+/* #logo{
+  padding-left: 15%;
+} */
+
+/* #logh >span{
+  margin-left:50%;
+} */
+
+#logh >button{
+  margin-left: 2vh;
+}
+#bars{
+  display: inline-block;
+}
+  #hm{
+    display: none;
+  }
+  #logbt{
+    display: none;
+  }
+  #scorebtn{
+    display: block;
+  }
+  #hm >ul>li{
+    display: block;
+  }
+  .hh>{
+    width: 100%;
+  }
+.fi{
+  width: 95%;
+}
+  /* .hh >div{
+    padding: 2vh 0px;
+  } */
+  .fi >div > img{
+    height: 30vh;
+    width: 50vh;
+  }
+
+}
+
+
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  /* background: black; */
+  background: rgb(16, 16, 16);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 0, 0);
+  border-radius: 5px;
+  /* border: 3px solid orange; */
+}
+
+.newim{
+  height: 100%;
+  width: 106%;
+}
+
+
+
+
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background: black
+}
+.container h2{
+  color: #fff;
+  font-size: 32px;
+  padding: 50px 0;
+  text-align: center;
+}
+.price-row{
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-gap: 25px;
+}
+
+.price-col{
+  background: #1f283b;
+  padding: 10% 15%;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.price-col p{
+  font-size: 22px;
+}
+
+.price-col h3{
+  font-size: 44px;
+  margin: 20px 0 40px;
+  font-weight: 500;
+}
+
+.price-col h3 span{
+  font-size: 16px;
+}
+
+.price-col ul{
+  font-size: 20px;
+  text-align: left;
+  margin: 20px 0;
+  color: #ddd;
+  list-style: none;
+}
+.price-col ul li{
+  margin: 15px 0;
+}
+.price-col ul li ::before{
+  content: '\2022';
+  color: #e33058;
+  font-weight: bold;
+  margin-right: 8px;
+}
+.price-col button{
+  width: 50%;
+  padding: 14px 0;
+  background: transparent;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #e33058;
+  border-radius: 6px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.price-col button:hover{
+  background: #e33058;
+}
+
+
+
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+/* button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+} */
+
+/* button:hover {
+  opacity: 0.8;
+} */
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+
+
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 73%; /* Full height */
+ overflow: hidden; /* Enable scroll if needed
+  background-color: rgb(226, 223, 223); /* Fallback color */
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+
+.linn{
+  text-decoration: none;
+  color:white;
+}
+
+.linn:hover{
+  color:rgb(138, 138, 249);
+}
+
+.linn>button:hover{
+  color:rgb(138, 138, 249);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  height: 1vh;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+    </style>
+
+
+
+
   </body>
+
+
+
+
+
   <script>
     var a=1;
-$(document).ready(function(){
+    $(document).ready(function(){
+    $("#b1").click(function(){//b1
+$("body").css("background-color","black");
+$("body").css("color","white");
+    }
+    );
 
+    $("#bb").click(function(){//b1
+event.preventDefault();
+    }
+    );
+
+    if(window.innerWidth >993){
+$("#scores").collapse('show');}
 
 $("#modbtn").click(function(){
-if(a==1){a=0;
-$("#mode").css("background-image","linear-gradient(to right,red,purple,black)");}
-else{
-a=1;
-$("#mode").css("background-image","linear-gradient(to right,red,black");
-}
+  if(a==1){a=0;
+  $("#mode").css("background-image","linear-gradient(to right,red,purple,black)");}
+  else{
+    a=1;
+    $("#mode").css("background-image","linear-gradient(to right,red,black");
+  }
 });
 
 
 
-});
+    });
 
 
-$(function() {
-$('#toggle-two').bootstrapToggle({
-  on: 'E-Sports Mode',
-  off: 'Sports Mode',
-  width : "25vh",
-  height : "5vh",
-  onstyle :"danger",
-  offstyle :"success"
-});
-})
+    $(function() {
+    $('#toggle-two').bootstrapToggle({
+      on: 'E-Sports Mode',
+      off: 'Sports Mode',
+      width : "25vh",
+      height : "5vh",
+      onstyle :"danger",
+      offstyle :"success"
+    });
+  })
+
 
 
   </script>

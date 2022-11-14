@@ -1,0 +1,40 @@
+[
+
+    
+     {
+        "title": "Countdown CUP",
+        "game": "Overwatch",
+        "img1": "pics/ch.jfif",
+        "img2": "pics/sd.png",
+        "t1": "Chengdu Hunters",
+        "t2": "Seoul Dynasty",
+        "st":"THU , 20 Oct"
+    },
+    
+   {
+        "title": "Countdown CUP",
+        "game": "Overwatch",
+        "img1": "pics/lag.png",
+        "img2": "pics/vt.png",
+        "t1": "Shanghai Dragons",
+        "t2": "Philadelphia Fusion",
+        "st":"THU , 20 OCT"
+    },
+    
+    
+    {
+        "title": "Elite Series",
+        "game": "Rocket League",
+        "img1": "pics/jtf.png",
+        "img2": "pics/me.png",
+        "t1": "Join The Force",
+        "t2": "mCon esports",
+        "st":"SUN , 23 OCT"
+       
+    }
+    
+    
+    
+    
+    
+]

@@ -1,0 +1,26 @@
+<div class="row">
+
+<div class="col-lg-4 og"><br><img src="pics/tsm.png" height="100vh"></img><br></br>TSM</div>
+
+<div class="col-lg-4 og"><br><img src="pics/fnc.png" height="100vh"></img><br></br>FNATIC</div>
+
+<div class="col-lg-4 og"><br><img src="pics/tl.png" height="100vh"></img><br></br>TEAM LIQUID</div>
+
+
+
+  </div>
+
+<br>
+
+
+<div class="row">
+<div class="col-lg-4 og"><br><img src="pics/dwg.png" height="100vh"></img><br>DWG KIA</div>
+
+<div class="col-lg-4 og"><br><img src="pics/navi.png" height="100vh"></img><br>NAVI ESPORTS</div>
+<div class="col-lg-4 og"><br><img src="pics/g2.png" height="100vh"></img><br>G2 GAMING</div>
+
+
+
+  </div>
+
+<br></br>

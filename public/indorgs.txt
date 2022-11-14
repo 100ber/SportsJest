@@ -1,0 +1,25 @@
+<div class="row" >
+
+<div class="col-lg-4 og"><br><img src="pics/sle.png" height="100vh"></img><br></br>SKYLIGHTZ GAMING</div>
+
+<div class="col-lg-4 og"><br><img src="pics/gl.png" height="100vh"></img><br></br>GODLIKE</div>
+
+<div class="col-lg-4 og"><br><img src="pics/s8ul.png" height="100vh"></img><br></br>S8UL</div>
+
+
+
+  </div>
+
+<br>
+
+
+<div class="row">
+<div class="col-lg-4 og"><br><img src="pics/tmayhem.png" height="100vh"></img><br></br>MAYHEM ESPORTS</div>
+<div class="col-lg-4 og"><br><img src="pics/ge.png" height="100vh"></img><br></br>GLOBAL ESPORTS</div>
+<div class="col-lg-4 og"><br><img src="pics/vlt.png" height="100vh"></img><br></br>VELOCITY GAMING</div>
+
+
+
+  </div>
+
+<br></br>

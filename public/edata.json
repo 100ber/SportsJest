@@ -1,0 +1,64 @@
+[
+
+   {
+    "cat":"c",
+        "title": "ESL Pro League",
+        "game": "CS: GO",
+        "img1": "pics/navi.png",
+        "img2": "pics/heroic.png",
+        "t1": "Navi",
+        "t2": "Heroic",
+        "s1":5,
+        "s2":3
+    },
+    
+     {
+        "title": "Countdown CUP",
+        "game": "Overwatch",
+        "img1": "pics/ho.png",
+        "img2": "pics/sfs.png",
+        "t1": "Houston Outlaws",
+        "t2": "San Francisco",
+        "s1":3,
+        "s2":1
+    },
+    
+     {
+        "title": "Countdown CUP",
+        "game": "Overwatch",
+        "img1": "pics/lag.png",
+        "img2": "pics/vt.png",
+        "t1": "LA Gladiators",
+        "t2": "Vancouver Titans",
+        "s1":3,
+        "s2":0
+    },
+    
+    
+     {
+        "title": "Agent Series 2022",
+        "game": "Valorant",
+        "img1": "pics/ql.png",
+        "img2": "pics/yt.png",
+        "t1": "QLASH",
+        "t2": "YUTORU",
+        "s1":2,
+        "s2":1
+    },
+    
+     {
+        "title": "Stay And Play Cup",
+        "game": "FIFA 22",
+        "img1": "pics/jk.png",
+        "img2": "pics/md.png",
+        "t1": "J Karlstrom",
+        "t2": "Mo Daramy",
+        "s1":1,
+        "s2":2
+    }
+
+    
+    
+    
+    
+]

@@ -1,0 +1,65 @@
+
+   [ 
+
+{
+"cat":"c",
+    "title": "ICC men's T20 World Cup",
+    "img1": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fcricket%2F500%2F4.png",
+    "img2": "https://th.bing.com/th/id/R.cc08eb90646d1b42bd3658e6689d78ca?rik=gukG2LKODGjTIQ&riu=http%3a%2f%2fwww.holdingwilley.com%2fimages%2farticle-images%2fFlag_Zimbabwe.png&ehk=BBH0npB1tyZvqHXvDBB5j3E6nMTDU3AwamZqqkeqms8%3d&risl=&pid=ImgRaw&r=0",
+    "t1": "W. Indies",
+    "t2": "Zimbabwe",
+    "status":"WI won by 31 runs"
+},
+
+ {
+    "cat":"c",
+    "title": "ICC men's T20 World Cup",
+    "img1": "https://1.bp.blogspot.com/-tEsG0on5W8k/WL2tgfUM1cI/AAAAAAAAcrA/DzcK3aMESl4YlfH59fD6SsAjKfuglPszACLcB/s1600/Scotland.png",
+    "img2": "https://static.onlinecricketbetting.net/main-static/images/logos/teams/ireland.png",
+    "t1": "Scotland",
+    "t2": "Ireland",
+    "status":"Ireland won by 6 wickets<br>(6 ball left)"
+},
+
+{
+    "cat":"f",
+    "title": "Ligue 1",
+        "img1": "pics/psg.png",
+        "img2": "https://i.skyrock.net/9410/70389410/pics/2829463150_1.png",
+        "t1": "PSG",
+        "t2": "Marseille",
+    "s1":1,
+    "s2":0,
+    "score": "Neymar 45'+2' "
+},
+
+{
+    "cat":"f",
+    "title": "El Clasico",
+        "img1": "pics/liverpool.png",
+        "img2": "pics/mc.png",
+        "t1": "Liverpool",
+        "t2": "City",
+    "s1":1,
+    "s2":0,
+    "score": "M. Salah 76' "
+},
+
+
+ {
+    "cat":"f",
+    "title": "El Clasico",
+        "img1": "pics/fcb.png",
+        "img2": "pics/rm.png",
+        "t1": "Barcelona",
+        "t2": "Madrid",
+    "s1":1,
+    "s2":3,
+    "score":"K Benzama 12' <br>F Valverde 35' <br> Rodrygo 90'+1' (PEN)"
+}
+
+
+
+    
+   ]
+

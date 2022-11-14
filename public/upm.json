@@ -1,0 +1,46 @@
+[
+
+     {
+        "cat":"c",
+        "title": "ICC men's T20 World Cup",
+        "img1": "pics/netherland.png",
+        "img2": "pics/slnct.png",
+        "t1": "Netherlands",
+        "t2": "Sri Lanka",
+        "status":"Today 9:30 am"
+    },
+    
+    {
+        "cat":"c",
+        "title": "ICC men's T20 World Cup",
+        "img1": "https://www.usacricket.org/wp-content/themes/usacricket-child/img/team/namibia.png",
+        "img2": "https://www.usacricket.org/wp-content/themes/usacricket-child/img/team/uae.png",
+        "t1": "Namibia",
+        "t2": "UAE",
+        "status":"Today 1:30 pm"
+    },
+    
+     {
+        "cat":"f",
+        "title": "UEFA Champions League",
+        "img1": "https://www.bing.com/th?id=OSB.hKR2Pn5yT7lzYRVa4BicSw--.png&w=32&h=32&o=6&dpr=1.5&pid=SANGAM",
+        "img2": "https://www.bing.com/th?id=OSB.XBtn1re8Lz11fcoq2Bc5jA--.png&w=32&h=32&o=6&dpr=1.5&pid=SANGAM",
+        "t1": "Sevilla",
+        "t2": "Cop.",
+        "status":"20th Oct, 10:15 PM"
+    },
+    
+    
+     {
+        "cat":"f",
+        "title": "UEFA Champions League",
+        "img1": "https://www.bing.com/th?id=OSB.XoxAHUNQvjSDDAUeo4yOqg--.png&w=32&h=32&o=6&dpr=1.5&pid=SANGAM",
+        "img2": "https://www.bing.com/th?id=OSB.MMknahyXnsFopSAV6wS%7cNQ--.png&w=32&h=32&o=6&dpr=1.5&pid=SANGAM",
+        "t1": "Salzburg",
+        "t2": "Chelsea",
+        "status":"20th Oct, 10:15 PM"
+    }
+    
+
+    
+]

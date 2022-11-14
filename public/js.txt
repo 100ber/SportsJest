@@ -1,0 +1,180 @@
+ <div>
+
+<div id="carouselExampleIndicators" class="carousel slide slidecustom" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          
+    <img class="d-block w-100 br" width="800" height="420" src={this.state.s1}></img>
+    <div class="carousel-caption d-none d-md-block">
+        {/* <h5>ICC Men's T20 World Cup</h5>
+        <p>Register in advance to catch live action</p> */}
+      </div>
+        </div>
+        <div class="carousel-item">
+        <img class="d-block w-100 br" width="800" height="420" src={this.state.s2}></img>
+        <div class="carousel-caption d-none d-md-block">
+        <h5>Barcelona Vs Bayern</h5>
+        <p>13th September , 21:00 IST <br></br>Don't miss the fun</p>
+      </div>
+        </div>
+        <div class="carousel-item">
+        <img class="d-block w-100 br" width="800" height="420" src={this.state.s3}></img>
+    
+        </div>
+
+        <div class="carousel-item">
+        <img class="d-block w-100 br" width="800" height="420" src={this.state.s4}></img>
+        <div class="carousel-caption d-none d-md-block">
+        <h5>Pro Kabaddi League Season 9</h5>
+        <p>Starts 7th October</p>
+      </div>
+        </div>
+        <div class="carousel-item">
+        <img class="d-block w-100 br" width="800" height="420" src={this.state.s5}></img>
+        <div class="carousel-caption d-none d-md-block">
+        <h5>Singapore Grand Prix 2022</h5>
+        <p>Starts 2nd October</p>
+      </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+<br></br>
+
+
+    {/* news */}
+
+    <div class="card">
+  <div class="card-header" align="left">
+    Football
+  </div>
+  <div class="row">
+
+    <div class="col-3" align="left"><img src="https://d.ibtimes.co.uk/en/full/1703507/robert-lewandowski-ended-losing-side-his-return-munich-barcelona.jpg?w=736&f=630228a567591672b7ad201102ac7990" height="100%" width="106%"></img></div>
+    <div class="col-9">
+  <div class="card-body" align="left">
+    <h5 class="card-title">UEFA Champions League </h5>
+    <p class="card-text"><h3>Robert Lewandowski off the mark in return as Bayern beat Barcelona yet again : Reaction , Ratings</h3></p>
+    <a href="#" class="btn btn-primary">Read more..</a>
+  </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<br></br>
+
+<div class="card">
+  <div class="card-header" align="left">
+    Cricket
+  </div>
+  <div class="row">
+
+    <div class="col-3" align="left"><img src="https://newsroompost.com/wp-content/uploads/2022/09/smriti-mandhana-vs-eng-2nd-T20.jpg" height="100%" width="106%"></img></div>
+    <div class="col-9">
+  <div class="card-body" align="left">
+    <h5 class="card-title">India Women in England 2022</h5>
+    <p class="card-text"><h3>Smiriti Mandhana 79* sees India run down England to level series.</h3></p>
+    <a href="#" class="btn btn-primary">Read more..</a>
+  </div>
+  </div>
+  </div>
+</div>
+            
+            
+
+
+
+<br></br>
+
+ 
+
+<div class="card-group">
+  <div class="card">
+  <div class="card-header" align="left">Basketball</div>
+    <img src="https://i3.wp.com/imageio.forbes.com/specials-images/imageserve/6312a00f31c9cb477fdbaacc/0x0.jpg" class="card-img-top" height="100%"></img>
+    <div class="card-body">
+      <h5 class="card-title">Chicago Bulls : NBA 2022</h5>
+      <p class="card-text">Lonzo Ball's pesky knee injury -- a timeline</p>
+      <p class="card-text"><small class="text-muted"><a href="#">Read more...</a></small></p>
+    </div>
+  </div>
+  <div class="card">
+  <div class="card-header" align="left">Tennis</div>
+    <img src="https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg):focal(1321x338:1323x336)/origin-imgresizer.eurosport.com/2021/02/03/2984206-61239868-2560-1440.jpg" class="card-img-top" height="100%" ></img>
+    <div class="card-body">
+      <h5 class="card-title">Davis Cup Finals , Spain</h5>
+      <p class="card-text">No. 1 Carlos Alcaraz to miss Spain's Davis Cup finals opener</p>
+      <p class="card-text"><small class="text-muted"><a href="#">Read more...</a></small></p>
+    </div>
+  </div>
+  <div class="card">
+  <div class="card-header" align="left">Wrestling</div>
+    <img src="https://cdn.sportslumo.com/wp-content/uploads/2021/06/28101212/Vinesh-Phogat-compressed-1024x576.jpg" class="card-img-top" height="100%"></img>
+    <div class="card-body">
+      <h5 class="card-title">🥉 at #WrestleBelgrade</h5>
+      <p class="card-text">Vinesh Phogat becomes first Indian woman to win 2 World Championship medals</p>
+      <p class="card-text"><small class="text-muted"><a href="#">Read more...</a></small></p>
+    </div>
+  </div>
+</div>
+
+<br></br>
+
+<br></br>
+
+<h1>Highlights of the Week</h1>
+<div class="row">
+
+<div class="col-lg-4"><iframe width="95%" height="200vh" src={this.state.vid1} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe></div>
+<div class="col-lg-4"><iframe width="95%" height="200vh" src={this.state.vid2} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe></div>
+<div class="col-lg-4"><iframe width="95%" height="200vh" src={this.state.vid3} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe></div>
+
+
+
+
+  </div>
+
+<br></br>
+
+  <div class="row">
+
+<div class="col-lg-4"><iframe width="95%" height="200vh" src={this.state.vid4} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe></div>
+<div class="col-lg-4"><iframe width="95%" height="200vh" src={this.state.vid5} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe></div>
+<div class="col-lg-4"><iframe width="95%" height="200vh" src={this.state.vid6} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe></div>
+
+
+
+
+  </div>
+  <br></br>
+
+
+
+
+
+           </div>
+
+
